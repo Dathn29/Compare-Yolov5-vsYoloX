@@ -17,7 +17,7 @@ Giống như yolov5 nhưng yoloX có một số thay đổi:
 <img src="week1/Screenshot from 2021-07-28 14-20-19.png">
 
 - Ở yolov5 sử dụng anchor base sẵn, càng nhiều anchor sẽ làm tăng độ phức tạp và sô luơng dự đoán cho mỗi ảnh. Vì vây yoloX là dạng anchor-free(không dùng anchor) tức là thay vì dự đoán 4 giá trị 2 tọa độ và chiều rộng, cao của box. Nó sẽ xác định trung tâm của mỗi đối tượng và xác định trước 1 phạm vi tỷ lệ
-- <img src="week1/Screenshot from 2021-07-28 14-20-48.png">
+<img src="week1/Screenshot from 2021-07-28 15-08-48.png">
 ### Thử trên cùng 1 máy
 |Model |size |AP(%) | Parameters | Speed(/1frame)|
 | ------    |:---:     |:---:  | :---: | :----: |
