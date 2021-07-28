@@ -12,7 +12,10 @@
 - Tối ưu hóa sử dụng Adam và SGD, hàm loss là GIOU Loss
 
 ## YOLOX model
-Giống như yolov5 nhưng yoloX có một số thay đổi:
+### Traning YoloX
+- Sử dụng backbone: DarkNet53
+- Traning train bộ dữ liệu Coco dataset(train2017) với 300 epoch, lr =0.01,weight decay= 0.0005, batch =128
+### Giống như yolov5 nhưng yoloX có một số thay đổi:
 - Thay head-Yolo thành decoupling head: do xung đột giữa phân loại và hồi quy nên tách ra làm 2 nhánh, sử dụng BCE loss cho phân loại và IOU loss cho hồi quy. Điều này giúp tăng độ chính xác những làm mô hình chậm đi.
 <img src="week1/Screenshot from 2021-07-28 14-20-19.png">
 
