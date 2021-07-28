@@ -27,3 +27,6 @@
 | ------    |:---:     |:---:  | :---: | :----: |
 |Yolov5-s    |640  | 36.7 | 7.3M      |0.4 s     |
 |YoloX-s   |640  | 39.6      |9.0M     |0.6 s |
+
+### Weights
+[memory leak](https://github.com/Megvii-BaseDetection/YOLOX/issues/103)
