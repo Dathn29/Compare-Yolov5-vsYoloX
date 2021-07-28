@@ -4,6 +4,7 @@
 - Tự động học Bound Box Anchors
 - Backbone-Cross-Stage Local Network (CSP)
 <img src="week1/csp.png" >
+
 - Neck-Path Aggregation Network (PANET) và SPP (spatial pyramid pooling)
 - Head-YOLO general detection layer: Mỗi đầu là: 80(cls)+ 1(score)+ 4(tọa độ): 86 channels
 - Cấu trúc mạng gồm 4 mẫu là yolov5 s,m,l,x khác nhau ở depth_multiple，width_multiple
