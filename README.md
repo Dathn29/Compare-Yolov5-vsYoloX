@@ -29,4 +29,4 @@
 |YoloX-s   |640  | 39.6      |9.0M     |0.6 s |
 
 ### Weights
-[memory leak](https://github.com/Megvii-BaseDetection/YOLOX/issues/103)
+[Yolox.pth](https://drive.google.com/file/d/1F9GVpaIDTQlpBJnbwxYuYHC-vBfepgnl/view?usp=sharing)
